@@ -15,6 +15,6 @@ public class ResponseEntity {
 
     private String statusCode;
     private String message;
-    private List<String> result;
+    private List<?> result;
 
 }
