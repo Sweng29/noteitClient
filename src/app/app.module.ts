@@ -14,6 +14,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {NotebookService} from "./shared/notebook.service";
 import {NoteService} from "./shared/note.service";
 import {FeedbackService} from "./shared/feedback.service";
+import {NotebookListComponent} from './notes/notebook-list/notebook-list.component';
 
 const routes: Routes = [
   {
@@ -46,7 +47,8 @@ const routes: Routes = [
     FeedbackComponent,
     NotesComponent,
     ProfileComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    NotebookListComponent
   ],
   imports: [
     BrowserModule,
