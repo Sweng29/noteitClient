@@ -1,4 +1,4 @@
-package com.noteit.app.model;
+package utils;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

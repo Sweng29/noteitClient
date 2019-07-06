@@ -1,9 +1,9 @@
 package com.noteit.app.controllers;
 
 import com.noteit.app.model.FeedbackModel;
-import com.noteit.app.model.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
+import utils.ResponseEntity;
 
 @RestController
 @RequestMapping(value = "/api/feedback")
